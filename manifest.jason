@@ -1,14 +1,20 @@
 {
-  "name": "Calculator",
-  "short_name": "Calc",
-  "start_url": "index.html",
+  "name": "Simple Calculator",
+  "short_name": "Calculator",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "theme_color": "#ffffff",
+  "description": "A simple calculator app built with HTML, CSS, and JavaScript.",
   "icons": [
     {
       "src": "icon.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
